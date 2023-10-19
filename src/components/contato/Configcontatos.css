@@ -1,0 +1,47 @@
+.projetoss {
+    text-align: center;
+    padding: 0px;
+}
+
+.projetoss h3 {
+    font-size: 60px;
+    border-bottom: 3px solid;
+    border-color:#FBC508;
+    display: inline-block;
+    color: rgb(110, 21, 219);
+    margin: 0px; /* Remova a margem para evitar espaço em branco */
+}
+
+.projetoss .projetinhos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0; /* Reduza a margem superior para zero */
+    flex-wrap: wrap;
+}
+
+.info {
+    width: 50%;
+    color: black;
+    position: relative;
+    left: 25%;
+    padding-top: 1%;
+}
+
+/* Adicione esta regra para evitar que o espaço em branco persista na parte inferior */
+.projetoss:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+@media screen and (max-width: 480px){
+    .info {
+        width: 70%;
+        color: black;
+        position: relative;
+        left: 16%;
+        padding-top: 1%;
+    }
+     
+}

@@ -1,0 +1,260 @@
+.alameda {
+    background-color: #2B0955;
+    height: 400px;
+    background-image: url("/public/image/noise.png");
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+  
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px;
+    color: white;
+    font-style:oblique ;
+    font-weight: bold;
+    transition: transform 0.2s; /* Adicione uma transição suave para a propriedade transform */
+  }
+  
+  .texto {
+    font-size: 50px;
+    margin-bottom: -70px; /* Ajuste a margem inferior para diminuir o espaço */
+    margin-right: 100px;
+    transition: transform 0.2s;
+  }
+  
+  .texto2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    transition: transform 0.2s;
+    
+  }
+  
+  .image-wrapper {
+    width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%; /* Faça com que a div seja um círculo */
+  overflow: hidden; /* Certifique-se de que a imagem dentro do círculo seja cortada */
+  margin-right: 500px; /* Ajuste a margem à direita conforme necessário */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0 25px transparent, 0 0 0 30px #0E0E0E, 0 0 0 35px #20093E, 0 0 0 40px #3C2A56; /* Gradiente de box-shadow para criar o efeito degradê */
+  transition: transform 0.2s;
+  }
+  
+  .foto {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Mantenha a imagem como um círculo */
+    border-radius: 50%; /* Mantenha a imagem como um círculo */
+    transition: transform 0.2s;
+  }
+
+  .pc {
+    position: relative;
+    top: 140px;
+    right: 600px;
+    transition: transform 0.2s;
+  }
+  
+  .front{
+    position: relative;
+    color: #F3C371;
+    bottom: 20px;
+    font-weight:lighter;
+    font-size: 18px;
+    margin-right: 50px;
+    transition: transform 0.2s;
+  }
+
+
+  .stack{
+    position: relative;
+    color: #FFFF;
+    bottom: 50px;
+    font-weight:lighter;
+    font-size: 25px;
+    margin-right: 100px;
+    transition: transform 0.2s;
+  }
+
+
+.texto2:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+  }
+
+
+  .texto:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+  }
+
+  .front:hover{
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+  }
+
+  .stack:hover{
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+  }
+
+  .foto:hover{
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+  }
+
+  .image-wrapper:hover{
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+  }
+
+  .pc:hover{
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+  }
+
+  @media screen and (max-width: 768px) {
+    .alameda {
+      width: 99%;
+    }
+  
+    .text-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centralize os elementos verticalmente */
+      margin-right: 0;
+      text-align: center; /* Centralize o texto */
+      color: white;
+      font-style: oblique;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+  
+    .texto {
+      font-size: 30px;
+      bottom: 30px;
+      transition: transform 0.2s;
+      text-align: center;
+      position: relative;
+      left:0;
+    }
+  
+    .texto2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+      transition: transform 0.2s;
+      text-align: center;
+      position: relative;
+      left:0;
+    }
+  
+    .image-wrapper {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 0 25px transparent, 0 0 0 30px #0E0E0E, 0 0 0 35px #20093E, 0 0 0 40px #3C2A56;
+      transition: transform 0.2s;
+    }
+  
+    .foto {
+      max-width: 100%;
+      max-height: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      transition: transform 0.2s;
+    }
+  
+    .pc, .front, .stack{
+      text-align: center;
+      font-size: 16px;
+      transition: transform 0.2s;
+      position: relative;
+      right: 70px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .alameda {
+      width: 111%;
+    }
+  
+    .text-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centralize os elementos verticalmente */
+      margin-right: 0;
+      text-align: center; /* Centralize o texto */
+      color: white;
+      font-style: oblique;
+      font-weight: bold;
+      transition: transform 0.2s;
+    }
+  
+    .texto {
+      font-size: 30px;
+      transition: transform 0.2s;
+      text-align: center;
+      position: relative;
+      left:30px;
+      top: 20px;
+    }
+  
+    .texto2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+      transition: transform 0.2s;
+      text-align: center;
+      position: relative;
+      left:20px;
+      top: 50px;
+    }
+  
+    .image-wrapper {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 0 25px transparent, 0 0 0 30px #0E0E0E, 0 0 0 35px #20093E, 0 0 0 40px #3C2A56;
+      transition: transform 0.2s;
+    }
+  
+    .foto {
+      max-width: 100%;
+      max-height: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      transition: transform 0.2s;
+    }
+  
+     .front{
+      text-align: center;
+      font-size: 19px;
+      transition: transform 0.2s;
+      position: relative;
+      right: 0px;
+      top: 50px;
+
+    }
+
+    .stack{
+      text-align: center;
+      font-size: 19px;
+      transition: transform 0.2s;
+      position: relative;
+      left: 30px;
+      top: 10px;
+  }
+}

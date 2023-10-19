@@ -1,0 +1,239 @@
+h1{
+    color:#2B0955;
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 60px;
+    position: relative;
+    margin-left: 840px;
+}
+
+.paragrafo{
+    background-color:#ffff;
+      width: 400px;
+      height: 200px;
+      position: relative;
+      left: 700px;
+}
+
+p{
+    font-style: oblique;
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+
+div.linha{
+    width:400px;
+    border: 1px solid; /* As 4 bordas sólidas com 25px de espessura */
+    border-color: #FBC508;
+    position: relative;
+    right: 30px;
+    bottom: 20px;
+}
+
+h2{
+    color:#2B0955;
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 40px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+div.linha2{
+    width:400px;
+    border: 2px solid; /* As 4 bordas sólidas com 25px de espessura */
+    border-color: #FBC508;
+    position: relative;
+    left: 100px;
+    margin-top: -30px;
+}
+.page{
+    background-color: #2B0955;
+    background-image: url("/public/image/noise.png");
+    width: 100%;
+    margin: 0 auto; /* Centralize horizontalmente */
+    position: relative;
+    height: 780px;
+}
+
+.slider {
+    width: 80%; /* Ajuste a largura do slider como desejado */
+    margin: 0 auto; /* Centralize horizontalmente */
+  }
+.pokedex{
+    width: 600px;
+    height: 500px;
+    border-radius: 10% 10% 10% 10%;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+h4{
+    color: white;
+}
+
+
+
+    @media screen and (max-width: 768px) {
+        .tudo {
+            width: 100%;
+        }
+        h1 {
+            color: #2B0955;
+            font-style: oblique;
+            font-weight: 400;
+            font-size: 24px; /* Reduz o tamanho da fonte */
+            text-align: center; /* Centralize o texto */
+            margin-left: 0; /* Remova a margem à esquerda */
+        }
+    
+        .paragrafo {
+            background-color: #fff; /* Use #fff em vez de #ffff para cor branca */
+            width: 90%; /* Ajuste a largura para 90% da largura da tela */
+            max-width: 100%; /* Defina uma largura máxima para evitar esticamento em telas pequenas */
+            margin: 0 auto; /* Centralize horizontalmente */
+            padding: 20px; /* Adicione algum espaço interno para facilitar a leitura */
+            position: relative;
+            left: 0; /* Remova o deslocamento à esquerda */
+        }
+    
+        p {
+            font-style: oblique;
+            font-weight: 600;
+            font-size: 14px; /* Reduz o tamanho da fonte */
+            text-align: center; /* Centralize o texto */
+            position: relative;
+            right: 0; /* Remova o deslocamento à direita */
+        }
+    
+        div.linha {
+            width: 90%; /* Ajuste a largura da linha para 90% da largura da tela */
+            border: 1px solid; /* As 4 bordas sólidas com 1px de espessura */
+            border-color: #FBC508;
+            margin: 0 auto; /* Centralize horizontalmente */
+            padding: 0px; /* Adicione algum espaço interno */
+            position: relative;
+            right: 0; /* Remova o deslocamento à direita */
+            bottom: 20px;
+        }
+    
+        h2 {
+            color: #2B0955;
+            font-style: oblique;
+            font-weight: 400;
+            font-size: 30px; /* Reduz o tamanho da fonte */
+            text-align: center; /* Centralize o texto */
+            margin-left: 0; /* Remova a margem à esquerda */
+            margin-top: 20px; /* Ajuste o espaço superior */
+        }
+    
+        div.linha2 {
+            width: 90%; /* Ajuste a largura da linha para 90% da largura da tela */
+            border: 2px solid; /* As 4 bordas sólidas com 2px de espessura */
+            border-color: #FBC508;
+            margin: 0 auto; /* Centralize horizontalmente */
+            padding: 0px; /* Adicione algum espaço interno */
+            position: relative;
+            left: 0; /* Remova o deslocamento à esquerda */
+            margin-top: -10px; /* Ajuste o espaço superior */
+        }
+    
+        .page {
+            background-color: #2B0955;
+            background-image: url("/public/image/noise.png");
+            width: 102%;
+            height: auto; /* Ajuste a altura automaticamente com base no conteúdo */
+            text-align: center; /* Centralize o conteúdo */
+            height: 730px;
+        }
+    
+        .slider {
+            width: 90%; /* Ajuste a largura do slider para 90% da largura da tela */
+            margin: 0 auto; /* Centralize horizontalmente */
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .tudo {
+            width: 100%;
+        }
+        h1 {
+            color: #2B0955;
+            font-style: oblique;
+            font-weight: 400;
+            font-size: 24px; /* Reduz o tamanho da fonte */
+            text-align: center; /* Centralize o texto */
+            margin-left: 0; /* Remova a margem à esquerda */
+        }
+    
+        .paragrafo {
+            background-color: #fff; /* Use #fff em vez de #ffff para cor branca */
+            width: 90%; /* Ajuste a largura para 90% da largura da tela */
+            max-width: 100%; /* Defina uma largura máxima para evitar esticamento em telas pequenas */
+            margin: 0 auto; /* Centralize horizontalmente */
+            padding: 20px; /* Adicione algum espaço interno para facilitar a leitura */
+            position: relative;
+            left: 0; /* Remova o deslocamento à esquerda */
+        }
+    
+        p {
+            font-style: oblique;
+            font-weight: 600;
+            font-size: 14px; /* Reduz o tamanho da fonte */
+            text-align: center; /* Centralize o texto */
+            position: relative;
+            right: 0; /* Remova o deslocamento à direita */
+        }
+    
+        div.linha {
+            width: 90%; /* Ajuste a largura da linha para 90% da largura da tela */
+            border: 1px solid; /* As 4 bordas sólidas com 1px de espessura */
+            border-color: #FBC508;
+            margin: 0 auto; /* Centralize horizontalmente */
+            padding: 0px; /* Adicione algum espaço interno */
+            position: relative;
+            right: 0; /* Remova o deslocamento à direita */
+            bottom: 20px;
+        }
+    
+        h2 {
+            color: #2B0955;
+            font-style: oblique;
+            font-weight: 400;
+            font-size: 30px; /* Reduz o tamanho da fonte */
+            text-align: center; /* Centralize o texto */
+            margin-left: 0; /* Remova a margem à esquerda */
+            margin-top: 20px; /* Ajuste o espaço superior */
+        }
+    
+        div.linha2 {
+            width: 90%; /* Ajuste a largura da linha para 90% da largura da tela */
+            border: 2px solid; /* As 4 bordas sólidas com 2px de espessura */
+            border-color: #FBC508;
+            margin: 0 auto; /* Centralize horizontalmente */
+            padding: 0px; /* Adicione algum espaço interno */
+            position: relative;
+            left: 0; /* Remova o deslocamento à esquerda */
+            margin-top: -10px; /* Ajuste o espaço superior */
+        }
+    
+        .page {
+            background-color: #2B0955;
+            background-image: url("/public/image/noise.png");
+            width: 115%;
+            height: auto; /* Ajuste a altura automaticamente com base no conteúdo */
+            text-align: center; /* Centralize o conteúdo */
+            height: 430px;
+        }
+    
+        .slider {
+            width: 90%; /* Ajuste a largura do slider para 90% da largura da tela */
+            margin: 0 auto; /* Centralize horizontalmente */
+        }
+    }
+
+    
+   

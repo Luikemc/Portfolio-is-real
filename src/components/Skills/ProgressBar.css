@@ -1,0 +1,58 @@
+/* ProgressBar.css */
+.progress-bar {
+  width: 90%;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin: 5px 15px;
+  
+  
+}
+
+.filler {
+  height: 100%;
+  border-radius: 5px;
+  background-color: #4caf50; /* Cor de preenchimento da barra de progresso */
+  transition: width 0.3s ease-in; /* Efeito de transição suave */
+  
+  
+
+  /* Adicione a animação de brilho */
+  animation: shine 2s infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-color: #4caf50; /* Cor padrão da barra de progresso */
+    box-shadow: none;
+  }
+  50% {
+    background-color: #6dff77; /* Cor de brilho */
+    box-shadow: 0 0 10px #6dff77; /* Efeito de sombra para o brilho */
+  }
+  100% {
+    background-color: #4caf50; /* Volta à cor padrão */
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* ProgressBar.css */
+.progress-bar {
+  width: 80%;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 5px;
+  margin: 5px 15px;
+  
+  
+}
+
+.filler {
+  height: 100%;
+  border-radius: 5px;
+  background-color: #4caf50; /* Cor de preenchimento da barra de progresso */
+  transition: width 0.3s ease-in; /* Efeito de transição suave */
+  
+}
+}

@@ -1,23 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import Aboutme from "./components/Aboutme/Aboutme";
+import Configskill from "./components/ConfigSkills/ConfigSkill";
+import Banner from "./components/banner/Banner";
+import Certificados from "./components/certificados/Certificados";
+import Configcontatos from "./components/contato/Configcontatos";
+import Menu from "./components/menu/Menu";
+
+
+const skills = [
+  {
+    nome: 'HARD SKILLS',
+    corPrimaria: '#FBC508',
+    corSecundaria: '#FFFF',
+  }
+]
+
+const contato = [
+  {
+    nomecontato: 'CONTATOS',
+    corPrimaria: '#FBC508',
+    corSecundaria: '#FFFF',
+  }
+]
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Menu/>
+      <Banner/>
+      <Aboutme/>
+      {skills.map(skill => <Configskill key={skill.nome} 
+        nome={skill.nome} 
+        corPrimaria={skill.corPrimaria} 
+        corSecundaria={skill.corSecundaria}
+     />)}
+     <Certificados/>
+    
+     {contato.map(contatos => <Configcontatos key={contatos.nomecontato} 
+        nomecontato={contatos.nomecontato} 
+        corPrimaria={contatos.corPrimaria} 
+        corSecundaria={contatos.corSecundaria}
+     />)}
     </div>
   );
 }
