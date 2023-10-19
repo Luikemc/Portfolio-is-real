@@ -126,7 +126,7 @@ h4{
     .pages{
         background-color: #2B0955;
         background-image: url("/public/image/noise.png");
-        width: 116%;
+        width: 100%;
         margin: 0 auto; /* Centralize horizontalmente */
         bottom: 39px;
         position: relative;
@@ -136,7 +136,7 @@ h4{
     
     .slider img{
         height: 300px;
-        width: 500px;
+        width: 429px;
     }
 }
 
