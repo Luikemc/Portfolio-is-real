@@ -165,97 +165,492 @@
     .foto {
       max-width: 100%;
       max-height:100%;
-      height: 150px;
+      height: 200px;
       object-fit: cover;
       border-radius: 50%;
       transition: transform 0.2s;
     }
   
-    .pc, .front, .stack{
+    .front, .stack{
       text-align: center;
       font-size: 16px;
       transition: transform 0.2s;
       position: relative;
       right: 70px;
     }
+    .pc{
+      top: 100px;
+      position: relative;
+      right: 90px;
+    }
   }
 
   @media screen and (max-width: 480px) {
 
-    .alameda {
+    .alameda{
       width: 97%;
     }
-  
+    
     .text-wrapper {
       display: flex;
       flex-direction: column;
-      align-items: center; /* Centralize os elementos verticalmente */
-      margin-right: 0;
-      text-align: center; /* Centralize o texto */
+      align-items: flex-start;
+      margin-right: 50px;
       color: white;
-      font-style: oblique;
+      font-style:oblique ;
       font-weight: bold;
-      transition: transform 0.2s;
+      transition: transform 0.2s; /* Adicione uma transição suave para a propriedade transform */
     }
-  
+    
     .texto {
       font-size: 30px;
+      margin-bottom: -70px; /* Ajuste a margem inferior para diminuir o espaço */
+      margin-right: 100px;
       transition: transform 0.2s;
-      text-align: center;
       position: relative;
-      left:30px;
-      top: 20px;
+      left: 150px;
+      top: 200px;
     }
-  
+    
     .texto2 {
       font-size: 30px;
-      margin-bottom: 10px;
+      margin-bottom: 30px;
+      margin-right: 60px;
       transition: transform 0.2s;
-      text-align: center;
       position: relative;
-      left:20px;
-      top: 50px;
+      left: 220px;
+      top: 200px;
+      
     }
   
     .image-wrapper {
-      width: 500px;
-      height: 200px;
-      border-radius: 20%;
-      overflow: hidden;
-      margin: 10px 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 0 0 25px transparent, 0 0 0 30px #0E0E0E, 0 0 0 35px #20093E, 0 0 0 40px #3C2A56;
-      transition: transform 0.2s;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%; /* Faça com que a div seja um círculo */
+    overflow: hidden; /* Certifique-se de que a imagem dentro do círculo seja cortada */
+    margin-right: 10px; /* Ajuste a margem à direita conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 25px transparent, 0 0 0 30px #0E0E0E, 0 0 0 35px #20093E, 0 0 0 40px #3C2A56; /* Gradiente de box-shadow para criar o efeito degradê */
+    transition: transform 0.2s;
+    right: 80px;
+    bottom: 50px;
     }
-  
+    
     .foto {
       max-width: 100%;
-      max-height: 100%;
-      height: 400px;
-      width: 300px;
-      object-fit: cover;
-      border-radius: 20%;
+      max-height: 90%;
+      object-fit: cover; /* Mantenha a imagem como um círculo */
+      border-radius: 50%; /* Mantenha a imagem como um círculo */
       transition: transform 0.2s;
     }
   
-     .front{
-      text-align: center;
-      font-size: 19px;
-      transition: transform 0.2s;
+    .pc {
       position: relative;
-      right: 0px;
       top: 50px;
-
+      right: 150px;
+      transition: transform 0.2s;
+      height: 120px;
     }
-
-    .stack{
-      text-align: center;
-      font-size: 19px;
+  
+    .front{
+      position: relative;
+      color: #F3C371;
+      top: 155px;
+      font-weight:lighter;
+      font-size: 20px;
+      margin-right: 50px;
       transition: transform 0.2s;
       position: relative;
-      left: 30px;
-      top: 10px;
+      left: 20px;
+    }
+  
+  
+    .stack{
+      position: relative;
+      color: #FFFF;
+      top: 60px;
+      font-weight:lighter;
+      font-size: 20px;
+      margin-right: 100px;
+      transition: transform 0.2s;
+      position: relative;
+      left:300px;
+    }
+  }
+  
+
+
+@media screen and (min-width: 1100px) and (max-width: 1460px) {
+  .alameda {
+    width: 99%;
+  }
+
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px;
+    color: white;
+    font-style:oblique ;
+    font-weight: bold;
+    transition: transform 0.2s; /* Adicione uma transição suave para a propriedade transform */
+  }
+  
+  .texto {
+    font-size: 50px;
+    margin-bottom: -70px; /* Ajuste a margem inferior para diminuir o espaço */
+    margin-right: 100px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 100px;
+  }
+  
+  .texto2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 80px;
+    
+  }
+
+  .image-wrapper {
+    width: 300px;
+  height: 300px;
+  position: relative;
+  border-radius: 50%; /* Faça com que a div seja um círculo */
+  overflow: hidden; /* Certifique-se de que a imagem dentro do círculo seja cortada */
+  margin-right: 300px; /* Ajuste a margem à direita conforme necessário */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0 25px transparent, 0 0 0 30px #0E0E0E, 0 0 0 35px #20093E, 0 0 0 40px #3C2A56; /* Gradiente de box-shadow para criar o efeito degradê */
+  transition: transform 0.2s;
+  }
+  
+  .foto {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Mantenha a imagem como um círculo */
+    border-radius: 50%; /* Mantenha a imagem como um círculo */
+    transition: transform 0.2s;
+  }
+
+  .pc {
+    position: relative;
+    top: 140px;
+    right: 400px;
+    transition: transform 0.2s;
+  }
+
+  .front{
+    position: relative;
+    color: #F3C371;
+    bottom: 20px;
+    font-weight:lighter;
+    font-size: 18px;
+    margin-right: 50px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 70px;
+  }
+
+
+  .stack{
+    position: relative;
+    color: #FFFF;
+    bottom: 50px;
+    font-weight:lighter;
+    font-size: 25px;
+    margin-right: 100px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 60px;
+  }
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1090px) {
+  .alameda{
+    width: 108%;
+  }
+  
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px;
+    color: white;
+    font-style:oblique ;
+    font-weight: bold;
+    transition: transform 0.2s; /* Adicione uma transição suave para a propriedade transform */
+  }
+  
+  .texto {
+    font-size: 50px;
+    margin-bottom: -70px; /* Ajuste a margem inferior para diminuir o espaço */
+    margin-right: 100px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 150px;
+  }
+  
+  .texto2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 80px;
+    
+  }
+
+  .image-wrapper {
+    width: 270px;
+  height: 270px;
+  position: relative;
+  border-radius: 50%; /* Faça com que a div seja um círculo */
+  overflow: hidden; /* Certifique-se de que a imagem dentro do círculo seja cortada */
+  margin-right: 10px; /* Ajuste a margem à direita conforme necessário */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0 25px transparent, 0 0 0 30px #0E0E0E, 0 0 0 35px #20093E, 0 0 0 40px #3C2A56; /* Gradiente de box-shadow para criar o efeito degradê */
+  transition: transform 0.2s;
+  }
+  
+  .foto {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Mantenha a imagem como um círculo */
+    border-radius: 50%; /* Mantenha a imagem como um círculo */
+    transition: transform 0.2s;
+  }
+
+  .pc {
+    position: relative;
+    top: 140px;
+    right: 120px;
+    transition: transform 0.2s;
+  }
+
+  .front{
+    position: relative;
+    color: #F3C371;
+    bottom: 20px;
+    font-weight:lighter;
+    font-size: 18px;
+    margin-right: 50px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 70px;
+  }
+
+
+  .stack{
+    position: relative;
+    color: #FFFF;
+    bottom: 50px;
+    font-weight:lighter;
+    font-size: 25px;
+    margin-right: 100px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 80px;
+  }
+}
+@media screen and (min-width: 470px) and (max-width: 500px) {
+  .alameda{
+    width: 103%;
+  }
+  
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px;
+    color: white;
+    font-style:oblique ;
+    font-weight: bold;
+    transition: transform 0.2s; /* Adicione uma transição suave para a propriedade transform */
+  }
+  
+  .texto {
+    font-size: 30px;
+    margin-bottom: -70px; /* Ajuste a margem inferior para diminuir o espaço */
+    margin-right: 100px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 150px;
+    top: 200px;
+  }
+  
+  .texto2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 220px;
+    top: 200px;
+    
+  }
+
+  .image-wrapper {
+    width: 150px; /* Aumentei a largura para 150px */
+    height: 150px; /* Aumentei a altura para 150px */
+    position: relative;
+    border-radius: 50%; /* Mantenha a forma de círculo */
+    overflow: hidden; /* Certifique-se de que a imagem dentro do círculo seja cortada */
+    margin-right: 10px; /* Ajuste a margem à direita conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 25px transparent, 0 0 0 30px #0E0E0E, 0 0 0 35px #20093E, 0 0 0 40px #3C2A56; /* Gradiente de box-shadow para criar o efeito degradê */
+    transition: transform 0.2s;
+    right: 80px;
+    bottom: 50px;
+  }
+  
+  
+  .foto {
+    max-width: 300%;
+    max-height: 100%;
+    object-fit: cover; /* Mantenha a imagem como um círculo */
+    border-radius: 50%; /* Mantenha a imagem como um círculo */
+    transition: transform 0.2s;
+  }
+
+  .pc {
+    position: relative;
+    top: 50px;
+    right: 150px;
+    transition: transform 0.2s;
+    height: 120px;
+  }
+
+  .front{
+    position: relative;
+    color: #F3C371;
+    top: 155px;
+    font-weight:lighter;
+    font-size: 20px;
+    margin-right: 50px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 20px;
+  }
+
+
+  .stack{
+    position: relative;
+    color: #FFFF;
+    top: 60px;
+    font-weight:lighter;
+    font-size: 20px;
+    margin-right: 100px;
+    transition: transform 0.2s;
+    position: relative;
+    left:300px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 465px) {
+  .alameda{
+    width: 102%;
+  }
+  
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px;
+    color: white;
+    font-style:oblique ;
+    font-weight: bold;
+    transition: transform 0.2s; /* Adicione uma transição suave para a propriedade transform */
+  }
+  
+  .texto {
+    font-size: 30px;
+    margin-bottom: -70px; /* Ajuste a margem inferior para diminuir o espaço */
+    margin-right: 100px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 150px;
+    top: 200px;
+  }
+  
+  .texto2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 220px;
+    top: 200px;
+    
+  }
+
+  .image-wrapper {
+    width: 150px; /* Aumentei a largura para 150px */
+    height: 150px; /* Aumentei a altura para 150px */
+    position: relative;
+    border-radius: 50%; /* Mantenha a forma de círculo */
+    overflow: hidden; /* Certifique-se de que a imagem dentro do círculo seja cortada */
+    margin-right: 10px; /* Ajuste a margem à direita conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 0 25px transparent, 0 0 0 30px #0E0E0E, 0 0 0 35px #20093E, 0 0 0 40px #3C2A56; /* Gradiente de box-shadow para criar o efeito degradê */
+    transition: transform 0.2s;
+    right: 80px;
+    bottom: 50px;
+  }
+  
+  
+  .foto {
+    max-width: 300%;
+    max-height: 100%;
+    object-fit: cover; /* Mantenha a imagem como um círculo */
+    border-radius: 50%; /* Mantenha a imagem como um círculo */
+    transition: transform 0.2s;
+  }
+
+  .pc {
+    position: relative;
+    top: 50px;
+    right: 150px;
+    transition: transform 0.2s;
+    height: 120px;
+  }
+
+  .front{
+    position: relative;
+    color: #F3C371;
+    top: 155px;
+    font-weight:lighter;
+    font-size: 20px;
+    margin-right: 50px;
+    transition: transform 0.2s;
+    position: relative;
+    left: 20px;
+  }
+
+
+  .stack{
+    position: relative;
+    color: #FFFF;
+    top: 60px;
+    font-weight:lighter;
+    font-size: 20px;
+    margin-right: 100px;
+    transition: transform 0.2s;
+    position: relative;
+    left:300px;
   }
 }

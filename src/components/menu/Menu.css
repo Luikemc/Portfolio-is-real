@@ -49,7 +49,7 @@ nav {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 374px) and (max-width: 500px) {
   nav ul {
       flex-direction:row; /* Mantém os itens em linha */
   }
@@ -58,4 +58,11 @@ nav {
       margin: 1px 9px; /* Define o espaçamento entre os itens do menu */
       font-size: 14px;
   }
+}
+
+@media screen and (max-width: 320px) {
+  nav li {
+    margin: 1px 10px; /* Define o espaçamento entre os itens do menu */
+    font-size: 10px;
+}
 }

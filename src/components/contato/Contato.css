@@ -79,3 +79,120 @@
 }
 
   }
+
+  @media screen and (min-width: 1100px) and (max-width: 1460px) {
+    .descobrindo {
+        width: 300px;
+        margin: 10px;
+    }
+    
+    
+    .descobrindo img {
+        width: 80px;
+        border-radius: 30%;
+        position: relative;
+        bottom: -50px;
+    }
+    
+    .descobrindo .pe {
+        background: #2c2b2b;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+        border-radius: 10px 10px 10px 10px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        height: 20px;
+    }
+    
+    .descobrindo .pe h4 {
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 0px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .descobrindo .pe h5 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #212121;
+        padding: 0 16px;
+    }
+    
+  }
+
+  @media screen and (min-width: 900px) and (max-width: 1090px) {
+    .descobrindo {
+        width: 130px;
+        margin: 10px;
+    }
+    
+    
+    .descobrindo img {
+        width: 75px;
+        border-radius: 30%;
+        position: relative;
+        bottom: -50px;
+    }
+    
+    .descobrindo .pe {
+        background: #2c2b2b;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+        border-radius: 10px 10px 10px 10px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        height: 20px;
+    }
+    
+    .descobrindo .pe h4 {
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 0px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .descobrindo .pe h5 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #212121;
+        padding: 0 16px;
+    }
+  }
+  @media screen and (min-width: 300px) and (max-width: 465px) {
+    .descobrindo {
+        width: 100px;
+        margin: 5px;
+    }
+    
+    
+    .descobrindo img {
+        width: 40px;
+        border-radius: 30%;
+        position: relative;
+        bottom: -30px;
+    }
+    
+    .descobrindo .pe {
+        background: #2c2b2b;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+        border-radius: 10px 10px 10px 10px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        height: 2px;
+    }
+    
+    .descobrindo .pe h4 {
+        color: #ffffff;
+        font-size: 10px;
+        line-height: 0px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .descobrindo .pe h5 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #212121;
+        padding: 0 16px;
+    }
+  }
