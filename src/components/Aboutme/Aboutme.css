@@ -399,7 +399,7 @@ h4{
         }
     }
 
-    @media screen and (min-width: 300px) and (max-width: 465px) {
+    @media screen and (min-width: 300px) and (max-width: 469px) {
         .page{
             background-color: #2B0955;
             background-image: url("/public/image/noise.png");
@@ -408,9 +408,32 @@ h4{
             position: relative;
             height: 340px;
         }
-
+        h1{
+            color:#2B0955;
+            font-style: oblique;
+            font-weight: 400;
+            font-size: 60px;
+            position: relative;
+            margin-left: 70px;
+        }
+        div.linha{
+            width:400px;
+            border: 1px solid; /* As 4 bordas sólidas com 25px de espessura */
+            border-color: #FBC508;
+            position: relative;
+            right: -10px;
+            bottom: 20px;
+        }
         .slider {
             width: 90%; /* Ajuste a largura do slider como desejado */
             margin: 0 auto; /* Centralize horizontalmente */
           }
+          p{
+            font-style: oblique;
+            font-weight: 600;
+            font-size: 15px;
+            position: relative;
+            right: -20px;
+            
+        }
     }

@@ -165,4 +165,51 @@
     }
   }
 
+  @media screen and (min-width: 461px) and (max-width: 469px) {
+    .geral {
+        width: 140px;
+        margin: 10px;
+    }
+    
+    .geral .cabecalho {
+        background-color: #661bad;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .geral img {
+        width: 100px;
+        border-radius: 30%;
+        position: relative;
+        bottom: -50px;
+    }
+    
+    .geral .rodape {
+        background: #FFFFFF;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+        border-radius: 0px 0px 10px 10px;
+        padding-top: 90px;
+        padding-bottom: 20px;
+        height: 90px;
+    }
+    
+    .geral .rodape h4 {
+        color: #6278F7;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        top: -50px;
+    }
+    
+    .geral .rodape h5 {
+        font-size: 18px;
+        line-height: 22px;
+        color: #212121;
+        padding: 0 16px;
+        position: relative;
+        top: -50px;
+        
+    }
+  
+  }
+
   
